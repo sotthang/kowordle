@@ -1,0 +1,302 @@
+hr {
+  width: 100%; 
+}
+
+#title_board {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px; 
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+#all_board {
+  width: 48vh;
+  height: 100%;
+  margin: auto;
+  margin-top: 3px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#board {
+  width: 45vh;
+  height: 40vh;
+  margin: auto;
+  margin-top: 3px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#board0 {
+  width: 40vh;
+  height: 3vh;
+  margin: auto;
+  margin-top: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#board1 {
+  width: 40vh;
+  height: 3vh;
+  margin: auto;
+  margin-top: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#board2 {
+  width: 40vh;
+  height: 3vh;
+  margin: auto;
+  margin-top: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#board3 {
+  width: 40vh;
+  height: 3vh;
+  margin: auto;
+  margin-top: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#board4 {
+  width: 40vh;
+  height: 3vh;
+  margin: auto;
+  margin-top: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#board5 {
+  width: 40vh;
+  height: 3vh;
+  margin: auto;
+  margin-top: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#answer_board {
+  width: 45vh;
+  height: 4vh;
+  margin: auto;
+  margin-top: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 15px; 
+  justify-content: center;
+  align-items: center;
+}
+
+#answer_meaning_board {
+  width: 45vh;
+  height: 6vh;
+  margin: auto;
+  margin-top: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 12px; 
+  justify-content: center;
+  align-items: center;
+}
+
+#keyboard {
+  width: 45vh;
+  height: 25vh;
+  margin: auto;
+  margin-top: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: left;
+}
+
+#keyboard1 {
+  width: 43vh;
+  height: 6vh;
+  margin: auto;
+  margin-top: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: left;
+}
+
+#keyboard2 {
+  width: 43vh;
+  height: 6vh;
+  margin: auto;
+  margin-top: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#keyboard3 {
+  width: 43vh;
+  height: 6vh;
+  margin: auto;
+  margin-top: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#keyboard4 {
+  width: 43vh;
+  height: 6vh;
+  margin: auto;
+  margin-top: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#modal {
+  width: 50vh;
+  height: 65vh;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  background:#000000;
+  border-radius: 40px / 40px;
+  transform: translate(-50%, -50%);
+  font-size: 17px;
+  text-align: center;
+}
+
+#modal_board {
+  width: 90%;
+  height: 6vh;
+  margin: auto;
+  margin-top: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#modal_board2 {
+  width: 80%;
+  height: 6vh;
+  margin: auto;
+  margin-top: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#modal_howto {
+  color: #ffffff;
+}
+
+#modal_explain {
+  color: #ffffff;
+}
+
+#modal_end {
+  color: #ffffff;
+}
+
+
+.tile {
+  /* box */
+  border: 1px solid lightgrey;
+  width: 5vh;
+  height: 5vh;
+  margin: 1.5px;
+  
+  /* text */
+  color: black;
+  font-size: 36px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal_tile {
+  /* box */
+  border: 1px solid lightgrey;
+  width: 5vh;
+  height: 5vh;
+  margin: 1.5px;
+
+  /* text */
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.keytile {
+  /* box */
+  border: 1px solid lightgrey;
+  width: 3vh;
+  height: 6vh;
+  margin: 1.5px;
+
+  /* text */
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.typing {
+  background-color: #b6a2f5;
+  color: white;
+  border-color: white
+}
+
+.correct {
+  background-color: #619978;
+  color: white;
+  border-color: white;
+}
+
+.present {
+  background-color: #C9B458;
+  color: white;
+  border-color: white;
+}
+
+.absent {
+  background-color: #8d8f91;
+  color: white;
+  border-color: white
+}
+
